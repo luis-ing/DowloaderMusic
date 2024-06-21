@@ -1,7 +1,7 @@
 import fs from 'fs';
 import ytpl from 'ytpl';
 import path from 'path';
-import { downloadSong, downloadPlaylist } from "../files/index.js";
+import { downloadSong, downloadPlaylist } from "../utils/index.js";
 
 export const donwnloadMusic = async (req, res) => {
     const { url } = req.body;

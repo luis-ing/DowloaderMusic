@@ -2,7 +2,7 @@ import express from "express";
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import downloadMusicRoutes from "./routes/downloadMusic.routes.js";
-import { publicDir, __dirname } from "./files/index.js";
+import { publicDir, __dirname } from "./utils/index.js";
 
 const app = express();
 // Middlewares
